@@ -1,0 +1,67 @@
+.header_sony_height {
+    height: 2.5rem;
+}
+
+/* #region Debug */
+.debug .jumbotron {
+    height: 643px;
+    background-color: blue;
+}
+
+.debug .section_one {
+    height: 1423px;
+    background-color: yellow;
+    opacity: 0.2;
+}
+
+.debug .section_two {
+    height: 680px;
+}
+
+.debug .section_three {
+    height: 768px;
+    background-color: green;
+    opacity: 0.2;
+}
+
+.debug .section_four {
+    height: 798px;
+    background-color: purple;
+    opacity: 0.2;
+}
+
+.debug .section_five {
+    height: 441px;
+    background-color: blue;
+    opacity: 0.2;
+
+}
+
+.debug .section_six {
+    height: 743px;
+    background-color: rgb(255, 81, 0);
+    opacity: 0.2;
+
+}
+
+.debug .section_seven {
+    height: 504px;
+    background-color: blue;
+    opacity: 0.2;
+
+}
+
+.debug .section_eight {
+    height: 439px;
+    background-color: rgb(238, 255, 0);
+    opacity: 0.2;
+
+}
+
+.debug .footer {
+    height: 603px;
+    background-color: blue;
+    
+
+}
+/* #endregion Debug */
