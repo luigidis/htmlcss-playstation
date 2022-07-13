@@ -2,6 +2,18 @@
     height: 2.5rem;
 }
 
+.navbar_h   {
+    height: 4.5rem;
+}
+
+.search_lens {
+    width: 1.375rem;
+}
+
+.chevron_down_solid {
+    width: 13px;
+}
+
 /* #region Debug */
 .debug .jumbotron {
     height: 643px;
