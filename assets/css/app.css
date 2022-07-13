@@ -14,11 +14,12 @@
     width: 13px;
 }
 
-/* #region Debug */
-.debug .jumbotron {
+/* #region Debug */ 
+
+/* .debug .jumbotron {
     height: 643px;
     background-color: blue;
-}
+} */
 
 .debug .section_one {
     height: 1423px;
@@ -77,3 +78,32 @@
 
 }
 /* #endregion Debug */
+
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 643px;
+}
+
+.container_mini_jumbotron {
+    width: 398px;
+    padding-top: 270px;
+}
+
+.img_w_logo_returnal {
+    width: 235px;
+}
+
+.btn_orange {
+    background-color: #CD3D0F;
+}
+
+.mt_p {
+    margin-top: 2.25rem;
+}
+
+.mt_h2 {
+    margin-top: 2.625rem;
+}
