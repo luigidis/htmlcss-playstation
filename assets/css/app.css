@@ -24,7 +24,7 @@
 .debug .section_one {
     height: 1423px;
     background-color: yellow;
-    opacity: 0.2;
+    /* opacity: 0.2; */
 }
 
 .debug .section_two {
@@ -107,3 +107,36 @@
 .mt_h2 {
     margin-top: 2.625rem;
 }
+
+.pt_1 {
+    padding-top: 2rem;
+}
+
+.rounded_img {
+    border-radius: 1.25rem;
+    padding: 0.15rem;
+}
+
+.text_cyan {
+    color: #0273CE;
+}
+
+.btn_cyan {
+    background-color: #0273CE;
+}
+
+.margin_spot {
+    margin-top: 133px;
+}
+
+.ps5_here_margin {
+    margin-top: 102px;
+    margin-bottom: 191px;
+}
+
+.ps5_last_container_margin {
+    margin-top: 127px;
+    margin-bottom: 39px;
+}
+
+
