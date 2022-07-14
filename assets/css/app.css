@@ -3,6 +3,7 @@
     --ps-colororange: #CD3D0F;
     --ps-colorblack: #1F1F1F;
     --ps-cologrey: #BEBCBB;
+    --ps--colordarkblue: #161C3B;
 }
 
 .header_sony_height {
@@ -64,12 +65,12 @@
 
 }
 
-.debug .section_seven {
+/* .debug .section_seven {
     height: 504px;
     background-color: blue;
     opacity: 0.2;
 
-}
+} */
 
 .debug .section_eight {
     height: 439px;
@@ -214,4 +215,12 @@
 
 .pb_2 {
     padding: 13px 0;
+}
+
+.bg_darkblue {
+    background-color: var(--ps--colordarkblue);
+}
+
+.text_darkblue {
+    color: var(--ps--colordarkblue);
 }
