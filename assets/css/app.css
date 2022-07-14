@@ -1,3 +1,8 @@
+:root {
+    --ps-colorcyan: #0273CE;
+    --ps-colororange: #CD3D0F;
+}
+
 .header_sony_height {
     height: 2.5rem;
 }
@@ -22,7 +27,7 @@
 } */
 
 .debug .section_one {
-    height: 1423px;
+    /* height: 1423px; */
     background-color: yellow;
     /* opacity: 0.2; */
 }
@@ -97,7 +102,7 @@
 }
 
 .btn_orange {
-    background-color: #CD3D0F;
+    background-color: var(--ps-colororange);
 }
 
 .mt_p {
@@ -118,25 +123,35 @@
 }
 
 .text_cyan {
-    color: #0273CE;
+    color: var(--ps-colorcyan);
 }
 
 .btn_cyan {
-    background-color: #0273CE;
+    background-color: var(--ps-colorcyan);
 }
 
 .margin_spot {
     margin-top: 133px;
 }
 
-.ps5_here_margin {
+/* .ps5_here_margin {
     margin-top: 102px;
-    margin-bottom: 191px;
-}
+    margin-bottom: 83px;
+} */
 
-.ps5_last_container_margin {
-    margin-top: 127px;
+/* .ps5_last_container_margin {
+    margin-top: 74px;
     margin-bottom: 39px;
+} */
+
+.img_w {
+    max-width: 710px;
+    max-height: 550px;
 }
 
+@media (min-width: 576px) {
+    .pt_6 {
+        padding-top: 110px;
+    }
+}
 
