@@ -2,6 +2,7 @@
     --ps-colorcyan: #0273CE;
     --ps-colororange: #CD3D0F;
     --ps-colorblack: #1F1F1F;
+    --ps-cologrey: #BEBCBB;
 }
 
 .header_sony_height {
@@ -49,12 +50,12 @@
     opacity: 0.2;
 } */
 
-.debug .section_five {
+/* .debug .section_five {
     height: 441px;
     background-color: blue;
     opacity: 0.2;
 
-}
+} */
 
 .debug .section_six {
     height: 743px;
@@ -192,4 +193,25 @@
 .pt_p_ps4_head {
     margin-bottom: 14px;
     padding-top: 30px;
+}
+
+.btn_white {
+    background-color: white;
+}
+
+.bg_grey {
+    background-color: var(--ps-cologrey);
+}
+
+.img_ps_plus_w {
+    width: 60%;
+}
+
+.padding_p_plus {
+    margin-top: 37px;
+    margin-bottom: 34px;
+}
+
+.pb_2 {
+    padding: 13px 0;
 }
