@@ -1,6 +1,7 @@
 :root {
     --ps-colorcyan: #0273CE;
     --ps-colororange: #CD3D0F;
+    --ps-colorblack: #1F1F1F;
 }
 
 .header_sony_height {
@@ -155,7 +156,7 @@
 
 @media (min-width: 576px) {
     .pt_6 {
-        padding-top: 110px!important;
+        padding-top: 110px;
     }
 }
 
@@ -176,3 +177,14 @@
     padding: 20px 0;
 }
 
+.rounded_1 {
+    border-radius: 1.25rem;
+}
+
+.pb_1 {
+    padding-bottom: 2rem;
+}
+
+.bg_color_black {
+    background-color: var(--ps-colorblack);
+}
