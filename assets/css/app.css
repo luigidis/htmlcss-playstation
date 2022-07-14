@@ -43,11 +43,11 @@
     opacity: 0.2;
 } */
 
-.debug .section_four {
+/* .debug .section_four {
     height: 798px;
     background-color: purple;
     opacity: 0.2;
-}
+} */
 
 .debug .section_five {
     height: 441px;
@@ -187,4 +187,9 @@
 
 .bg_color_black {
     background-color: var(--ps-colorblack);
+}
+
+.pt_p_ps4_head {
+    margin-bottom: 14px;
+    padding-top: 30px;
 }
