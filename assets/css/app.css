@@ -224,3 +224,17 @@
 .text_darkblue {
     color: var(--ps--colordarkblue);
 }
+
+.pb_3 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.pb_4 {
+    padding-top: 13px;
+    padding-bottom: 23px;
+}
+
+.rg_1 {
+    row-gap: 20px;
+}
