@@ -7,23 +7,48 @@
     --ps--colorblue: #00439C;
 }
 
-.header_sony_height {
-    height: 2.5rem;
+/* #region Colors */
+
+.border_cyan {
+    border-bottom: 2px solid transparent;
 }
 
-.navbar_h   {
-    height: 4.5rem;
+.text_cyan {
+    color: var(--ps-colorcyan);
 }
 
-.search_lens {
-    width: 1.375rem;
+.btn_cyan {
+    background-color: var(--ps-colorcyan);
 }
 
-.chevron_down_solid {
-    width: 13px;
+.btn_orange {
+    background-color: var(--ps-colororange);
 }
 
-/* #region Debug */ 
+.bg_color_black {
+    background-color: var(--ps-colorblack);
+}
+
+.btn_white {
+    background-color: white;
+}
+
+.bg_grey {
+    background-color: var(--ps-cologrey);
+}
+
+.bg_darkblue {
+    background-color: var(--ps--colordarkblue);
+}
+
+.text_darkblue {
+    color: var(--ps--colordarkblue);
+}
+
+
+/* #endregion Colors */
+
+/* #region Debug */
 
 /* .debug .jumbotron {
     height: 643px;
@@ -88,9 +113,28 @@
 } */
 /* #endregion Debug */
 
+/* Navbar */
+.header_sony_height {
+    height: 2.5rem;
+}
+
+.navbar_h {
+    height: 4.5rem;
+}
+
+.search_lens {
+    width: 1.375rem;
+}
+
+.chevron_down_solid {
+    width: 13px;
+}
+
+/* Main */
+
 .jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 643px;
@@ -98,23 +142,15 @@
 
 .container_mini_jumbotron {
     width: 398px;
-    padding-top: 270px;
+    padding-top: 200px;
 }
 
 .img_w_logo_returnal {
     width: 235px;
 }
 
-.btn_orange {
-    background-color: var(--ps-colororange);
-}
-
-.mt_p {
-    margin-top: 2.25rem;
-}
-
-.mt_h2 {
-    margin-top: 2.625rem;
+.m_text_jumbo {
+    margin-top: 40px;
 }
 
 .p_1 {
@@ -131,35 +167,13 @@
     padding: 0.15rem;
 }
 
-.text_cyan {
-    color: var(--ps-colorcyan);
-}
-
-.btn_cyan {
-    background-color: var(--ps-colorcyan);
-}
-
 .margin_spot {
     margin-top: 133px;
 }
+
 .img_w {
-max-width: 710px;
-max-height: 550px;
-
-
-
-}
-
-@media (min-width: 576px) {
-    .pt_6 {
-        padding-top: 110px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container_mini_hero {
-        width: 392px;
-    }
+    max-width: 710px;
+    max-height: 550px;
 }
 
 .hero {
@@ -178,24 +192,12 @@ max-height: 550px;
 }
 
 .pb_1 {
-    padding-bottom: 2rem;
-}
-
-.bg_color_black {
-    background-color: var(--ps-colorblack);
+    padding-bottom: 3.125rem;
 }
 
 .pt_p_ps4_head {
     margin-bottom: 14px;
     padding-top: 30px;
-}
-
-.btn_white {
-    background-color: white;
-}
-
-.bg_grey {
-    background-color: var(--ps-cologrey);
 }
 
 .img_ps_plus_w {
@@ -208,15 +210,7 @@ max-height: 550px;
 }
 
 .pb_2 {
-    padding: 13px 0;
-}
-
-.bg_darkblue {
-    background-color: var(--ps--colordarkblue);
-}
-
-.text_darkblue {
-    color: var(--ps--colordarkblue);
+    padding: 18px 0;
 }
 
 .pb_3 {
@@ -270,12 +264,8 @@ max-height: 550px;
     padding-bottom: 2.5rem;
 }
 
-.border_cyan {
-    border-bottom: 2px solid transparent;
-}
-
 .border_cyan:hover {
-    border-bottom: 2px solid var(--ps-colorcyan);    
+    border-bottom: 2px solid var(--ps-colorcyan);
 }
 
 .ps_logo_footer {
@@ -293,5 +283,64 @@ max-height: 550px;
 
 .ps4_font_spot h4 {
     font-size: 39px;
-
 }
+
+.mw_spotps4_button {
+    max-width: 126px;
+}
+
+.title_ps {
+    font-size: 46px;
+    letter-spacing: -3.5%;
+}
+
+.subtitle_ps {
+    font-size: 20px;
+}
+
+
+
+/* #region Media Query  */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .img_w_logo_returnal {
+        width: 361px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .img_w_logo_returnal {
+        width: 361px;
+    }
+}
+
+@media (min-width: 576px) {
+    .pt_6 {
+        padding-top: 110px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container_mini_hero {
+        width: 392px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .ps4_font_spot p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:472px) {
+    .title_ps {
+        font-size: 34px;
+        letter-spacing: -3.5%;
+    }
+
+    .subtitle_ps {
+        font-size: 15px;
+    }
+}
+
+/* #endregion MQ */
