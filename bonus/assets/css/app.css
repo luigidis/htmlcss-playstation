@@ -117,9 +117,8 @@
     margin-top: 2.625rem;
 }
 
-.p_1 {
+.pt_1 {
     padding-top: 2rem;
-    padding-bottom: 2.375rem;
 }
 
 .pt_2 {
@@ -253,26 +252,4 @@ max-height: 550px;
 
 .footer {
     background-color: var(--ps--colorblue);
-}
-
-.p_9 {
-    padding-top: 70px;
-    padding-bottom: 90px;
-}
-
-.footer li {
-    padding-bottom: 1.25rem;
-    font-size: 0.938rem;
-}
-
-.p_country {
-    padding-top: 2.5rem;
-}
-
-.border_cyan {
-    border-bottom: 2px solid transparent;
-}
-
-.border_cyan:hover {
-    border-bottom: 2px solid var(--ps-colorcyan);    
 }
