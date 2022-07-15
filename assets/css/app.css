@@ -267,6 +267,7 @@ max-height: 550px;
 
 .p_country {
     padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .border_cyan {
@@ -275,4 +276,22 @@ max-height: 550px;
 
 .border_cyan:hover {
     border-bottom: 2px solid var(--ps-colorcyan);    
+}
+
+.ps_logo_footer {
+    width: 90px;
+}
+
+.all_right_reserved {
+    font-size: 15px;
+}
+
+.ps4_font_spot p {
+    font-size: 21px;
+    letter-spacing: 0.25%;
+}
+
+.ps4_font_spot h4 {
+    font-size: 39px;
+
 }
